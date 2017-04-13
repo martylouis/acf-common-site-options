@@ -1,0 +1,63 @@
+{
+    "key": "group_cso_code_injection",
+    "title": "Code Injection",
+    "fields": [
+        {
+            "key": "field_code_head",
+            "label": "Head Code",
+            "name": "cso_code_head",
+            "type": "textarea",
+            "instructions": "Enter code that will be injected into the &lt;head&gt; tag on every page of your site.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "16",
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_code_footer",
+            "label": "Footer Code",
+            "name": "cso_code_footer",
+            "type": "textarea",
+            "instructions": "Enter code that will be injected before the closing &lt;body&gt; tag on every page of your site.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "16",
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-code-injection"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1492042457,
+    "private": true
+}

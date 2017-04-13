@@ -1,0 +1,102 @@
+
+/* --------------------------- */
+/* Contact info */
+/* --------------------------- */
+
+#acf-group_cso_contact_info.acf-postbox {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+
+#acf-group_cso_contact_info h2.hndle {
+  display: none;
+}
+
+#acf-group_cso_contact_info .acf-fields > .acf-field {
+  background: #f9f9f9;
+}
+
+#acf-group_cso_contact_info .acf-label {
+  margin-bottom: 5px;
+}
+
+#acf-group_cso_contact_info .acf-label label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.acf-fields > .acf-field-contact-address-line1 {
+  border-top: 1px solid #e5e5e5 !important;
+}
+
+.acf-fields > .acf-field-contact-address-line2 {
+  border-top: 0;
+}
+
+.acf-fields > .acf-field-contact-address-line1,
+.acf-fields > .acf-field-contact-address-line2 {
+  padding-bottom: 0;
+  border-right: 1px solid #e5e5e5 !important;
+  border-left: 1px solid #e5e5e5 !important;
+}
+
+.acf-fields > .acf-field-contact-city {
+  border-left: 1px solid #e5e5e5 !important;
+}
+
+.acf-fields > .acf-field-contact-zip {
+  border-right: 1px solid #e5e5e5 !important;
+}
+
+.acf-fields > .acf-field-contact-state,
+.acf-fields > .acf-field-contact-zip {
+  border-left: 0 !important;
+}
+
+.acf-fields > .acf-field-contact-city,
+.acf-fields > .acf-field-contact-state,
+.acf-fields > .acf-field-contact-zip {
+  margin-bottom: 20px;
+  padding-bottom: 20px !important;
+  border-top: 0;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.acf-fields > .acf-field-contact-city,
+.acf-fields > .acf-field-contact-state,
+.acf-fields > .acf-field-contact-zip,
+.acf-fields > .acf-field-contact-phone,
+.acf-fields > .acf-field-contact-email,
+.acf-fields > .acf-field-contact-social-links {
+  margin-bottom: 20px;
+  /*box-shadow: 0 1px 1px rgba(0,0,0,.04);*/
+}
+
+.acf-fields > .acf-field-contact-phone,
+.acf-fields > .acf-field-contact-email,
+.acf-fields > .acf-field-contact-social-links {
+  border: 1px solid #e5e5e5 !important;
+}
+
+.acf-fields > .acf-field-contact-social-links .acf-repeater.-block.-empty::before {
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  color: #aaa;
+  content: "No Links added.";
+}
+
+
+#acf-group_cso_contact_info .acf-input-prepend {
+  background: #f7f7f7;
+}
+
+/* --------------------------- */
+/* Code Injection */
+/* --------------------------- */
+
+#acf-group_cso_code_injection textarea {
+  font-family: monospace !important;
+}
