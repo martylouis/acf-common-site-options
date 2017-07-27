@@ -186,7 +186,7 @@
             },
             "default_value": "",
             "placeholder": "email@domain.com",
-            "prepend": "💌",
+            "prepend": "📫",
             "append": ""
         },
         {
@@ -194,7 +194,7 @@
             "label": "Social Media Links",
             "name": "cso_social_links",
             "type": "repeater",
-            "instructions": "Ex: http:\/\/facebook.com\/myfacebookpage",
+            "instructions": "Add social media links to your site.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -205,25 +205,54 @@
             "collapsed": "",
             "min": 0,
             "max": 0,
-            "layout": "block",
+            "layout": "table",
             "button_label": "+ Add Link",
             "sub_fields": [
                 {
+                    "key": "field_social_type",
+                    "label": "Type",
+                    "name": "social_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "facebook": "Facebook",
+                        "twitter": "Twitter",
+                        "google": "Google Plus",
+                        "linkedin": "LinkedIn",
+                        "youtube": "YouTube",
+                        "instagram": "Instagram"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
                     "key": "field_social_url",
-                    "label": "",
-                    "name": "url",
+                    "label": "URL",
+                    "name": "social_url",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "",
+                        "width": "75",
                         "class": "",
                         "id": ""
                     },
                     "default_value": "",
                     "placeholder": "https:\/\/",
-                    "prepend": "",
+                    "prepend": "🔗",
                     "append": "",
                     "maxlength": ""
                 }
@@ -247,6 +276,6 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1492041744,
+    "modified": 1501109480,
     "private": true
 }
