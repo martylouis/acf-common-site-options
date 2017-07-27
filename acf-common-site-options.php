@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Common Site Options with ACF
- * Plugin URI: https://github.com/martylouis/common-site-options
- * Description: A pre-built Advanced Custom Fields Options Page, ready to for development on any theme.
+ * Plugin Name: ACF Common Site Options
+ * Plugin URI: https://github.com/martylouis/acf-common-site-options
+ * Description: A small, pre-built Advanced Custom Fields Options Page plugin, ready to for development on any theme.
  * Author: Marty Thierry
  * Author URI: https://martylouis.com
- * Version: 1.0
+ * Version: 1.1.0
  * License: GPLv2
  */
 if (!defined('ABSPATH')) exit; // Exit if accessed directly

@@ -1,4 +1,4 @@
-# Common Site Options for ACF
+# ACF Common Site Options
 
 **NOTE: This plugin only works with an installed active version of [Advanced Custom Fields PRO v5](https://www.advancedcustomfields.com/pro/). By itself, this plugin does NOTHING.**
 
@@ -18,16 +18,18 @@ Read more about the Options Page [here](https://www.advancedcustomfields.com/add
 
 #### Contact Info
 
-|Label | Name | Type | 
+|Label | Name | Type |
 |---|---|---|
 |Address Line 1|`cso_contact_address_line1`|text|
-| Address Line 2 | `cso_contact_address_line2` | text | 
+| Address Line 2 | `cso_contact_address_line2` | text |
 | City | `cso_contact_city` | text |
-| State | `cso_contact_state` | select | (w/ all US states) |
-| Zip | `cso_contact_zip` | text | 
+| State (w/ all US states) | `cso_contact_state` | select |
+| Zip | `cso_contact_zip` | text |
 | Phone Number | `cso_contact_phone` | text |
 | Email | `cso_contact_email` | email |
 | Social Media Links | `cso_social_links` | repeater |
+|  - Social Media Type | `social_type` | select |
+|  - Social Media Url | `social_url` | url |
 
 #### Code Injection
 
@@ -38,9 +40,7 @@ Read more about the Options Page [here](https://www.advancedcustomfields.com/add
 
 #### Other Services
 
-|Label | Name | Type | 
+|Label | Name | Type |
 |---|---|---|
 | Google Analytics ID | `cso_google_analytics_id` | text |
 | Google Maps API key | `cso_google_maps_api_key` | text |
-
-------

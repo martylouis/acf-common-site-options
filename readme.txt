@@ -1,6 +1,6 @@
-=== Common Site Options for ACF ===
+=== ACF Common Site Options ===
 Contributors: martylouiswp
-Tags: options, addons, advanced custom fields, acf, contact, address
+Tags: options, addons, advanced custom fields, acf, contact, address, social
 Requires at least: 4.0
 Tested up to: 4.7.2
 Stable tag: 1.0.0
@@ -31,10 +31,14 @@ Read more about the Options Page [here](https://www.advancedcustomfields.com/add
 To see a list of fields available in this plugin, go to our GitHub repo [here](https://github.com/martylouis/common-site-options/).
 
 == Installation ==
-1. Copy the `common-site-options` folder into your plugins folder
+1. Copy the acf-common-site-options folder into your plugins folder
 2. Activate the plugin via the Plugins admin page
 
 == Changelog ==
+
+= 1.1.0 =
+* Update cso_social_links repeater field, add new social media type select field
+* Update name to acf-common-site-options and github repo
 
 = 1.0 =
 * Initial Release
