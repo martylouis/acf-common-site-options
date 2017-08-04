@@ -5,7 +5,7 @@
  * Description: A small, pre-built Advanced Custom Fields Options Page plugin, ready to for development on any theme.
  * Author: Marty Thierry
  * Author URI: https://martylouis.com
- * Version: 1.1.1
+ * Version: 1.1.2
  * License: GPLv2
  */
 
@@ -18,7 +18,7 @@ if (!class_exists('acf_cso')) :
     function __construct() {
 
       $this->settings = [
-        'version'           => '1.1.1',
+        'version'           => '1.1.2',
         'name'              => 'ACF Common Site Options',
         'basename'          => dirname(plugin_basename(__FILE__)),
         'url'               => plugin_dir_url(__FILE__)
