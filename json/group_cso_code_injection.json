@@ -19,7 +19,7 @@
             "placeholder": "",
             "maxlength": "",
             "rows": "16",
-            "new_lines": "wpautop"
+            "new_lines": ""
         },
         {
             "key": "field_code_footer",
@@ -38,7 +38,7 @@
             "placeholder": "",
             "maxlength": "",
             "rows": "16",
-            "new_lines": "wpautop"
+            "new_lines": ""
         }
     ],
     "location": [
