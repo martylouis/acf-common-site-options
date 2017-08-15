@@ -3,11 +3,11 @@
     "title": "Other Services",
     "fields": [
         {
-            "key": "field_google_analytics_id",
-            "label": "Google Analytics ID",
-            "name": "cso_google_analytics_id",
+            "key": "field_gtm_id",
+            "label": "Google Tag Manager Container ID",
+            "name": "cso_gtm_id",
             "type": "text",
-            "instructions": "Note: Universal Analytics only",
+            "instructions": "Get your Google Tag Manager ID here: https:\/\/tagmanager.google.com",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -16,7 +16,7 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "UA-XXXXX-YY",
+            "placeholder": "GTM-xxxxxxx",
             "prepend": "",
             "append": "",
             "maxlength": ""
