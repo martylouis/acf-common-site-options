@@ -18,12 +18,12 @@ Read more about the Options Page [here](https://www.advancedcustomfields.com/add
 
 #### Contact Info
 
-|Label | Name | Type |
+|Label | Name | Field Type |
 |---|---|---|
 |Address Line 1|`cso_contact_address_line1`|text|
 | Address Line 2 | `cso_contact_address_line2` | text |
 | City | `cso_contact_city` | text |
-| State (w/ all US states) | `cso_contact_state` | select |
+| State (includes all US states options) | `cso_contact_state` | select |
 | Zip | `cso_contact_zip` | text |
 | Phone Number | `cso_contact_phone` | text |
 | Email | `cso_contact_email` | email |
@@ -33,14 +33,14 @@ Read more about the Options Page [here](https://www.advancedcustomfields.com/add
 
 #### Code Injection
 
-|Label | Name | Type |
+|Label | Name | Field Type |
 |---|---|---|
 | Head Code | `cso_code_head` | textarea |
 | Footer Code | `cso_code_footer` | textarea |
 
 #### Other Services
 
-|Label | Name | Type |
+|Label | Name | Field Type |
 |---|---|---|
 | Google Tag Manager Container ID | `cso_gtm_id` | text |
 | Google Maps API key | `cso_google_maps_api_key` | text |
