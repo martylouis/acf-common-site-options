@@ -2,8 +2,8 @@
 Contributors: martylouiswp
 Tags: options, addons, advanced custom fields, acf, contact, address, social
 Requires at least: 4.0
-Tested up to: 4.7.2
-Stable tag: 1.0.0
+Tested up to: 4.8.1
+Stable tag: 1.2.0
 
 Common site options used on most websites, somehow missing from WordPress. Install with Advanced Custom Fields PRO.
 
