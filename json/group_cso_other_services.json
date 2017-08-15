@@ -22,6 +22,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_google_analytics_id",
+            "label": "Google Analytics ID",
+            "name": "cso_google_analytics_id",
+            "type": "text",
+            "instructions": "Get your Google Analytics ID here: https:\/\/analytics.google.com",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "UA-XXXXX-YY",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_google_maps_api_key",
             "label": "Google Maps API key",
             "name": "cso_google_maps_api_key",

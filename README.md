@@ -49,6 +49,7 @@ Read more about the Options Page [here](https://www.advancedcustomfields.com/add
 |Label | Name | Field Type |
 |---|---|---|
 | Google Tag Manager Container ID | `cso_gtm_id` | text |
+| Google Analytics ID | `cso_google_analytics_id` | text |
 | Google Maps API key | `cso_google_maps_api_key` | text |
 
 ![Other Services Screenshot][other_services]
